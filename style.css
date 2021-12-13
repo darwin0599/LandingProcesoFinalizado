@@ -1,0 +1,162 @@
+html, body {width: auto !important; overflow-x: hidden !important}
+
+/* 60pt */
+.text-lx {
+    font-size: 6rem;
+    line-height: 6.2rem;
+    color: #008ba1;
+}
+
+/* 30pt */
+.text-xxx {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.navbar {
+    background-color: #fcd808;
+    
+}
+.centrar-logo{
+  justify-content: center;
+  margin-left: -100px;
+}
+
+.bg-yellow {
+    background: #f9de4b;
+}
+
+.button {
+    background-color: #f9de4b ;/* Green */
+    border: none;
+    color: #008ba1;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  /*Boton*/
+.btn-fin{
+  font-size: 1.2rem;
+  background:#f6d549;
+  border-radius: 4rem;
+  padding: 0rem 2rem;
+  color: #0B8080;
+  /*box-shadow: 8px 8px 8px #0B8080;*/
+}
+
+  #centrador{
+    position: relative;
+    width: auto;
+    height: 95px;
+  }
+
+  #centrador-body{
+    position: relative;
+    width: auto;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  
+  #imagen-logo{
+      position: absolute;
+      width: 200px;
+  }
+  #titulo-pf{
+    margin-top: auto;
+  }
+  #centrar-parrafo{
+    text-align: center;
+  }
+  #centrar-v{
+    vertical-align: middle;
+  }
+ 
+
+
+@media (max-width: 576px) { 
+/* 60pt */
+.text-lx {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  color: #008ba1;
+  text-align: center;
+}
+/* 30pt */
+.text-xxx {
+  font-size: .75rem;
+  line-height: 1rem;
+}
+.centrar-logo {
+  justify-content: center;
+  margin-left: .4rem;
+}
+.sm-img {
+  width: 10rem;
+}
+#centrador-body{
+  position: relative;
+  width: auto;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+ }
+
+
+@media (min-width: 768px) { 
+  /* 60pt */
+  .text-lx {
+    font-size: 4rem;
+    line-height: 4.2rem;
+    color: #008ba1;
+}
+.text-xxx {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+ }
+
+@media (min-width: 992px) { 
+/* 60pt */
+  .text-lx {
+    font-size: 4.5rem;
+    line-height: 4.7rem;
+    color: #008ba1;
+}
+.text-xxx {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+ }
+ @media (min-width: 1024px) { 
+  .text-lx {
+    font-size: 5.5rem;
+    line-height: 6.2rem;
+    color: #008ba1;
+}
+/* 30pt */
+.text-xxx {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+  
+ }
+@media (min-width: 1200px) { 
+  .text-lx {
+    font-size: 5.5rem;
+    line-height: 6.2rem;
+    color: #008ba1;
+}
+/* 30pt */
+.text-xxx {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+  
+ }
+
+@media (min-width: 1400px) { 
+  
+}
