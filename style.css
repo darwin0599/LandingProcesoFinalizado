@@ -21,6 +21,10 @@ html, body {width: auto !important; overflow-x: hidden !important}
   justify-content: center;
   margin-left: -100px;
 }
+.centrar-boton {
+  justify-content: center;
+  margin-left: -50px;
+}
 
 .bg-yellow {
     background: #f9de4b;
@@ -100,6 +104,10 @@ html, body {width: auto !important; overflow-x: hidden !important}
   width: auto;
   justify-content: center;
   margin-top: 3rem;
+}
+.centrar-boton {
+  justify-content: center;
+  margin-left: 0px;
 }
 
  }
